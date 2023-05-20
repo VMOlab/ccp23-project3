@@ -1,0 +1,16 @@
+    jmp 1, MAIN
+    # 1 1 2 3 5 8 13 21 34 55
+
+MAIN:
+    memo = [1; 10]
+    i = 2
+LOOP:
+    memo[i] = memo[i - 1] + memo[i - 2]
+    i = i + 1
+    jmp i < 10, LOOP
+
+    i = 0
+PRINT_LOOP:
+    print(memo[i])
+    i = i + 1
+    jmp i < 10, PRINT_LOOP

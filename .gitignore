@@ -1,0 +1,29 @@
+# Compiled Python Cache
+*.pyc
+__pycache__/
+
+# Visual Studio Code
+.vscode/
+
+# LaTeX Temp files
+doc/**/*.aux
+doc/**/*.bit
+doc/**/*.blg
+doc/**/*.bbl
+doc/**/*.lof
+doc/**/*.log
+doc/**/*.lot
+doc/**/*.glo
+doc/**/*.glx
+doc/**/*.gxg
+doc/**/*.gxs
+doc/**/*.idx
+doc/**/*.ilg
+doc/**/*.ind
+doc/**/*.out
+doc/**/*.url
+doc/**/*.svn
+doc/**/*.toc
+doc/**/*.fdb_latexmk
+doc/**/*.fls
+doc/**/*.synctex.gz

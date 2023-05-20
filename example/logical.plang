@@ -1,0 +1,21 @@
+    # Logical operation test
+    # Expected output: <None>
+    jmp 1, MAIN
+
+BAD:
+    print(-1)
+    jmp 1, EXIT
+
+MAIN:
+    jmp 1 == -1, BAD
+    jmp 1 != 1, BAD
+    jmp 1 > 2, BAD
+    jmp 1 > 1, BAD
+    jmp 1 < -1, BAD
+    jmp 1 < 1, BAD
+    jmp 1 >= 3, BAD
+    jmp 1 <= -3, BAD
+MAIN_END:
+    jmp 1, EXIT
+
+EXIT:

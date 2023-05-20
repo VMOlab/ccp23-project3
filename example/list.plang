@@ -1,0 +1,18 @@
+    jmp 1, MAIN
+
+MAIN:
+    x = 1
+    jmp x, STEP_A
+STEP_A:
+    a = 3
+    z = 4
+    x = [0; z]
+    y = [1; 2]
+    w = [2; 5]
+
+    x[0] = y[0]
+    x[y[1]] = w[w[3]]
+    x[w[y[x[0]]]] = a
+    x[3] = z
+
+    # x: [1, 2, 3, 4]

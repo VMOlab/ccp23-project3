@@ -1,0 +1,6 @@
+    # 0 1 2 3 4
+    i = 0
+LOOP:
+    print(i)
+    i = i + 1
+    jmp i < 5, LOOP
