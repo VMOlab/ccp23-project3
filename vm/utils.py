@@ -2,6 +2,7 @@
 VMO Lab.
 Petite-Language Calculator
 """
+from .exceptions import *
 
 
 def is_numeral(s):

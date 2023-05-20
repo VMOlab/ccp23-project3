@@ -2,6 +2,7 @@
 VMO Lab.
 Petite-Language Interpreter
 """
+from .exceptions import *
 from .ixx import *
 from .utils import *
 from .virtual_machine import VM

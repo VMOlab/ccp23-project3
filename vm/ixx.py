@@ -2,6 +2,7 @@
 VMO Lab.
 Fixed length integers. ixx.
 """
+from .exceptions import *
 
 
 def larger_type(x, y):
