@@ -8,6 +8,8 @@ Implement Virtual Machine for 'Plang' (Petite-language).
 * **DUE**: 2023-06-09 24:00 (UTC+9, KST)  
 * **DELAY**: 2023-06-12 24:00 (UTC+9, KST)  
 
+![fibo-demo](doc/ptvm_demo_fibonacci.gif)
+
 ## Index
 
 1. [Submission](#submission)
